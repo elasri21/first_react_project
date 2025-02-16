@@ -9,9 +9,10 @@ import Footer from './Footer'
 import Project from './Project'
 const RouterApp = () => {
   return (
-    <Router>
+    <Router basename="/first_react_project">
         <NavBar />
         <Routes>
+            <Route path="/" element={<Home />} />
             <Route path="/home" element={<Home />} />
             <Route path="/services" element={<Services />} />
             <Route path="/about" element={<About />} />

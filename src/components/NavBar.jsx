@@ -9,7 +9,7 @@ const NavBar = () => {
       display: isMobile ? 'block' : 'none',
       transition: 'all .3s  ease-in-out',
     }}>
-        <Link to="/">Home</Link>
+        <Link to="/home">Home</Link>
         <Link to="/services">Services</Link>
         <Link to="/about">About</Link>
         <Link to="/projects">Projects</Link>

@@ -18,7 +18,7 @@ const About = () => {
 
       <h3>My Projects</h3>
       <div className="projects-container">
-          <button onClick={() => navigate("/projects")}>Go to About Page</button>
+          <button onClick={() => navigate("/projects")}>See our projects</button>
       </div>
 
       <div className="contact-info">

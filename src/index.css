@@ -317,7 +317,8 @@ header .toggle span {
 }
 .contact .content .card {
   background-color: #fff;
-  width: 21.25em;
+  /* width: 21.25em; */
+  width: 24em;
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
   padding: 25px;
